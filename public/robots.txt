@@ -1,0 +1,11 @@
+
+User-agent: *
+Allow: /
+Allow: /hakkinda
+Allow: /hizmetler/bireysel
+Allow: /blog
+Allow: /blog/*
+Allow: /iletisim
+Disallow: /randevu
+
+Sitemap: https://example.com/sitemap.xml
