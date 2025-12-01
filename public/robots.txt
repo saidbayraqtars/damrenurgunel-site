@@ -8,4 +8,4 @@ Allow: /blog/*
 Allow: /iletisim
 Disallow: /randevu
 
-Sitemap: https://example.com/sitemap.xml
+Sitemap: https://www.klinikpsikologdamrenurgunel.com.tr/sitemap.xml

@@ -1,0 +1,10 @@
+{
+  "/page": "app/page.js",
+  "/hakkinda/page": "app/hakkinda/page.js",
+  "/hizmetler/bireysel/page": "app/hizmetler/bireysel/page.js",
+  "/randevu/page": "app/randevu/page.js",
+  "/hizmetler/cocuk-ergen/page": "app/hizmetler/cocuk-ergen/page.js",
+  "/hizmetler/aile-cift/page": "app/hizmetler/aile-cift/page.js",
+  "/hizmetler/online/page": "app/hizmetler/online/page.js",
+  "/iletisim/page": "app/iletisim/page.js"
+}
