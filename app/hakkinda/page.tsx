@@ -1,5 +1,4 @@
 
-'use client';
 
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
@@ -22,7 +21,7 @@ export default function About() {
         "department": "Klinik Psikoloji Yüksek Lisans"
       },
       {
-        "@type": "EducationalOrganization", 
+        "@type": "EducationalOrganization",
         "name": "Gedik Üniversitesi",
         "department": "Psikoloji Lisans"
       }
@@ -62,7 +61,7 @@ export default function About() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <Header />
-      
+
       {/* Hero Section */}
       <section className="py-20 bg-slate-50">
         <div className="container mx-auto px-6">
@@ -71,7 +70,7 @@ export default function About() {
               Hakkımda
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Ruh sağlığı alanında uzmanlaşmış, empatik ve deneyimli bir psikolog olarak 
+              Ruh sağlığı alanında uzmanlaşmış, empatik ve deneyimli bir psikolog olarak
               danışanlarıma en iyi hizmeti sunmak için buradayım
             </p>
           </div>
@@ -85,7 +84,7 @@ export default function About() {
             <div>
               <div className="sticky top-8">
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-                  <img 
+                  <img
                     src="https://static.readdy.ai/image/06461edf5d9b24c66a3431fe58cc857a/d5380a429bf3784a8a28d8ba1b5c2607.jfif"
                     alt="Klinik Psikolog Damrenur Günel"
                     className="w-full h-[500px] object-cover object-center"
@@ -118,18 +117,18 @@ export default function About() {
                 </h2>
                 <div className="prose prose-lg text-gray-600 leading-relaxed">
                   <p className="mb-6">
-                    Merhaba, ben Damrenur Günel. Klinik Psikolog olarak, bireylerin ruh sağlığı 
-                    yolculuklarında onlara eşlik etmek ve destek olmak için buradayım. Her insanın 
-                    kendine özgü bir hikayesi olduğuna ve herkesin iyileşme potansiyeline sahip 
+                    Merhaba, ben Damrenur Günel. Klinik Psikolog olarak, bireylerin ruh sağlığı
+                    yolculuklarında onlara eşlik etmek ve destek olmak için buradayım. Her insanın
+                    kendine özgü bir hikayesi olduğuna ve herkesin iyileşme potansiyeline sahip
                     olduğuna yürekten inanıyorum.
                   </p>
-                  
+
                   <p className="mb-6">
-                    2021 yılında Gedik Üniversitesi Psikoloji Lisans Programı'ndan mezun olduktan 
-                    sonra, aynı üniversitenin Klinik Psikoloji Yüksek Lisans Programı'na devam ettim 
-                    ve 2023 yılında onur derecesiyle mezun oldum. Eğitim sürecim boyunca, psikolojik 
-                    sağlığın önemini daha derinlemesine anlama fırsatı buldum ve özellikle travma sonrası 
-                    stres bozukluğu, depresyon, anksiyete bozuklukları gibi çeşitli psikolojik durumlar 
+                    2021 yılında Gedik Üniversitesi Psikoloji Lisans Programı'ndan mezun olduktan
+                    sonra, aynı üniversitenin Klinik Psikoloji Yüksek Lisans Programı'na devam ettim
+                    ve 2023 yılında onur derecesiyle mezun oldum. Eğitim sürecim boyunca, psikolojik
+                    sağlığın önemini daha derinlemesine anlama fırsatı buldum ve özellikle travma sonrası
+                    stres bozukluğu, depresyon, anksiyete bozuklukları gibi çeşitli psikolojik durumlar
                     üzerine yoğunlaştım.
                   </p>
                 </div>
@@ -219,26 +218,26 @@ export default function About() {
                 </h3>
                 <div className="prose text-gray-600 leading-relaxed">
                   <p className="mb-4">
-                    Mezuniyetimin ardından, terapi çalışmalarımda yalnızca danışanlarımın ruhsal 
-                    iyileşmesine odaklanmakla kalmayıp, aynı zamanda onlara günlük yaşamda 
+                    Mezuniyetimin ardından, terapi çalışmalarımda yalnızca danışanlarımın ruhsal
+                    iyileşmesine odaklanmakla kalmayıp, aynı zamanda onlara günlük yaşamda
                     karşılaştıkları zorluklarla başa çıkabilme becerileri kazandırmayı hedefliyorum.
                   </p>
                   <p className="mb-4">
-                    Terapilerin sonunda, danışanlarımın yalnızca duygusal anlamda daha iyi 
-                    hissetmelerini değil, aynı zamanda karşılaştıkları problemleri çözme yetilerini 
-                    de geliştirmelerini sağlamayı amaçlıyorum. Bu yaklaşım sayesinde, danışanlarım 
-                    seanslardan sonra kendilerine daha güvenli bir şekilde, daha sağlıklı başa çıkma 
+                    Terapilerin sonunda, danışanlarımın yalnızca duygusal anlamda daha iyi
+                    hissetmelerini değil, aynı zamanda karşılaştıkları problemleri çözme yetilerini
+                    de geliştirmelerini sağlamayı amaçlıyorum. Bu yaklaşım sayesinde, danışanlarım
+                    seanslardan sonra kendilerine daha güvenli bir şekilde, daha sağlıklı başa çıkma
                     stratejileriyle hayatlarına devam edebiliyorlar.
                   </p>
                   <p className="mb-4">
-                    Ayrıca, değişim ve kabul ekseninde farkındalık kazandırarak, stresle başa çıkma 
-                    yöntemlerini pekiştiriyorum. Amacım, terapinin sonunda her bir danışanın hem 
-                    duygusal anlamda daha güçlü hem de yaşam becerileri açısından daha donanımlı 
+                    Ayrıca, değişim ve kabul ekseninde farkındalık kazandırarak, stresle başa çıkma
+                    yöntemlerini pekiştiriyorum. Amacım, terapinin sonunda her bir danışanın hem
+                    duygusal anlamda daha güçlü hem de yaşam becerileri açısından daha donanımlı
                     hale gelmesidir.
                   </p>
                   <p>
-                    Klinik psikolog olarak, her bir danışanımın ihtiyaçlarına uygun, kişiye özel 
-                    bir yaklaşım sergileyerek, daha sağlıklı, huzurlu ve tatmin edici bir yaşam 
+                    Klinik psikolog olarak, her bir danışanımın ihtiyaçlarına uygun, kişiye özel
+                    bir yaklaşım sergileyerek, daha sağlıklı, huzurlu ve tatmin edici bir yaşam
                     sürmelerine rehberlik etmeye devam ediyorum.
                   </p>
                 </div>

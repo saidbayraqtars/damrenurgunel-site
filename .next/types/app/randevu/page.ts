@@ -1,4 +1,4 @@
-// File: C:\Users\SAİD\Desktop\damre\damrenurgunel-site\app\randevu\page.tsx
+// File: C:\Users\SAİD\Desktop\damrenurgunel-site\app\randevu\page.tsx
 import * as entry from '../../../../app/randevu/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

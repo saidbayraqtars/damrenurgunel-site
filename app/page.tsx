@@ -1,5 +1,4 @@
 
-'use client';
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -10,7 +9,7 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <Header />
-      <section 
+      <section
         className="min-h-screen flex items-center relative bg-cover bg-center"
         style={{
           backgroundImage: "url('https://readdy.ai/api/search-image?query=A%20professional%20modern%20therapy%20office%20with%20comfortable%20seating%2C%20soft%20natural%20lighting%2C%20calming%20neutral%20colors%2C%20plants%2C%20and%20a%20peaceful%20atmosphere%20that%20promotes%20mental%20wellness%20and%20psychological%20support%2C%20clean%20minimalist%20design%2C%20warm%20and%20inviting%20environment&width=1200&height=800&seq=hero&orientation=landscape')"
@@ -48,7 +47,7 @@ export default function Home() {
               Her yaştan bireye özel, kanıta dayalı terapi yaklaşımları ile psikolojik destek sunuyorum.
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
             <div className="bg-white p-6 sm:p-8 rounded-2xl shadow-sm border border-gray-100 text-center hover:shadow-lg transition-shadow">
               <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
@@ -62,7 +61,7 @@ export default function Home() {
                 Detayları Gör →
               </Link>
             </div>
-            
+
             <div className="bg-white p-6 sm:p-8 rounded-2xl shadow-sm border border-gray-100 text-center hover:shadow-lg transition-shadow">
               <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
                 <i className="ri-parent-line text-2xl text-red-700"></i>
@@ -75,7 +74,7 @@ export default function Home() {
                 Detayları Gör →
               </Link>
             </div>
-            
+
             <div className="bg-white p-6 sm:p-8 rounded-2xl shadow-sm border border-gray-100 text-center hover:shadow-lg transition-shadow">
               <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
                 <i className="ri-heart-line text-2xl text-red-700"></i>
@@ -88,7 +87,7 @@ export default function Home() {
                 Detayları Gör →
               </Link>
             </div>
-            
+
             <div className="bg-white p-6 sm:p-8 rounded-2xl shadow-sm border border-gray-100 text-center hover:shadow-lg transition-shadow">
               <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
                 <i className="ri-computer-line text-2xl text-red-700"></i>
@@ -121,9 +120,9 @@ export default function Home() {
                 Damrenur Günel
               </h2>
               <p className="text-base sm:text-lg text-gray-600 mb-4 sm:mb-6">
-                2021 yılında Gedik Üniversitesi Psikoloji Lisans Programı'ndan mezun olduktan sonra, 
-                aynı üniversitenin Klinik Psikoloji Yüksek Lisans Programı'na devam ettim ve 2023 yılında 
-                onur derecesiyle mezun oldum. Travma sonrası stres bozukluğu, depresyon, anksiyete bozuklukları 
+                2021 yılında Gedik Üniversitesi Psikoloji Lisans Programı'ndan mezun olduktan sonra,
+                aynı üniversitenin Klinik Psikoloji Yüksek Lisans Programı'na devam ettim ve 2023 yılında
+                onur derecesiyle mezun oldum. Travma sonrası stres bozukluğu, depresyon, anksiyete bozuklukları
                 üzerine uzmanlaştım.
               </p>
               <div className="space-y-3 sm:space-y-4 mb-6 sm:mb-8">
@@ -163,7 +162,7 @@ export default function Home() {
               Güvenli, destekleyici ve yargısız bir ortamda kişisel büyümenizi destekliyorum.
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
             <div className="text-center">
               <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
@@ -174,7 +173,7 @@ export default function Home() {
                 Tüm görüşmeleriniz tamamen gizli tutulur ve etik kurallara uygun şekilde gerçekleştirilir.
               </p>
             </div>
-            
+
             <div className="text-center">
               <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
                 <i className="ri-time-line text-2xl text-red-700"></i>
@@ -184,7 +183,7 @@ export default function Home() {
                 Yaşam tarzınıza uygun randevu saatleri ve online görüşme seçenekleri sunuyorum.
               </p>
             </div>
-            
+
             <div className="text-center">
               <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
                 <i className="ri-heart-pulse-line text-2xl text-red-700"></i>
@@ -209,7 +208,7 @@ export default function Home() {
               Terapi sürecimdeki deneyimlerini paylaşan danışanlarımdan geri bildirimler.
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
             <div className="bg-white p-6 sm:p-8 rounded-2xl shadow-sm">
               <div className="flex items-center mb-4">
@@ -234,7 +233,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            
+
             <div className="bg-white p-6 sm:p-8 rounded-2xl shadow-sm">
               <div className="flex items-center mb-4">
                 <div className="flex text-yellow-400">
@@ -258,7 +257,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            
+
             <div className="bg-white p-6 sm:p-8 rounded-2xl shadow-sm">
               <div className="flex items-center mb-4">
                 <div className="flex text-yellow-400">
@@ -294,7 +293,7 @@ export default function Home() {
               İlk Adımı Atmaya Hazır mısınız?
             </h2>
             <p className="text-base sm:text-lg mb-6 sm:mb-8 opacity-90">
-              Psikolojik desteğe ihtiyaç duyduğunuz her konuda yanınızdayım. 
+              Psikolojik desteğe ihtiyaç duyduğunuz her konuda yanınızdayım.
               Hemen randevu alın veya WhatsApp'tan bana ulaşın.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">

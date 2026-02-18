@@ -1,4 +1,4 @@
-// File: C:\Users\SAİD\Desktop\damre\damrenurgunel-site\app\hizmetler\bireysel\page.tsx
+// File: C:\Users\SAİD\Desktop\damrenurgunel-site\app\hizmetler\bireysel\page.tsx
 import * as entry from '../../../../../app/hizmetler/bireysel/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

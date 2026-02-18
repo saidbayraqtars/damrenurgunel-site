@@ -21,35 +21,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/hakkinda/page.js"
     ],
-    "/randevu/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/randevu/page.js"
-    ],
     "/hizmetler/bireysel/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/hizmetler/bireysel/page.js"
     ],
-    "/hizmetler/cocuk-ergen/page": [
+    "/randevu/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/hizmetler/cocuk-ergen/page.js"
-    ],
-    "/hizmetler/aile-cift/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/hizmetler/aile-cift/page.js"
-    ],
-    "/hizmetler/online/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/hizmetler/online/page.js"
-    ],
-    "/iletisim/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/iletisim/page.js"
+      "static/chunks/app/randevu/page.js"
     ]
   }
 }

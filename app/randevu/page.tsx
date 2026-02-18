@@ -18,13 +18,13 @@ export default function Appointment() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     // WhatsApp mesajını oluştur
     let message = `Merhaba, randevu almak istiyorum.\n\n`;
     message += `👤 Ad Soyad: ${formData.fullName}\n`;
     message += `📞 Telefon: ${formData.phone}\n`;
     message += `📧 E-posta: ${formData.email}\n`;
-    
+
     if (formData.serviceType) {
       const serviceNames: { [key: string]: string } = {
         'bireysel-psikoterapi': 'Bireysel Psikoterapi',
@@ -50,15 +50,15 @@ export default function Appointment() {
       };
       message += `🎯 Hizmet: ${serviceNames[formData.serviceType]}\n`;
     }
-    
+
     if (formData.preferredDate) {
       message += `📅 Tercih Edilen Tarih: ${formData.preferredDate}\n`;
     }
-    
+
     if (formData.preferredTime) {
       message += `🕐 Tercih Edilen Saat: ${formData.preferredTime}\n`;
     }
-    
+
     if (formData.notes) {
       message += `📝 Notlar: ${formData.notes}\n`;
     }
@@ -82,7 +82,7 @@ export default function Appointment() {
   return (
     <div className="min-h-screen bg-white">
       <Header />
-      
+
       {/* Hero Section */}
       <section className="py-20 bg-slate-50">
         <div className="container mx-auto px-6">
@@ -328,12 +328,12 @@ export default function Appointment() {
                     <div>
                       <h4 className="font-semibold text-gray-900">Adres</h4>
                       <p className="text-gray-600">
-                        Atatürk Mahallesi, Barış Caddesi No:15/3<br />
-                        Kadıköy, İstanbul
+                        Kılıçdede Mahallesi, Çubukçu Sokak No:19/4<br />
+                        Mert Plaza, İlkadım, Samsun
                       </p>
                     </div>
                   </div>
-                  
+
                   <div className="flex items-center space-x-4">
                     <i className="ri-phone-line text-blue-600 text-xl"></i>
                     <div>
@@ -341,7 +341,7 @@ export default function Appointment() {
                       <p className="text-gray-600">+90 505 354 22 05</p>
                     </div>
                   </div>
-                  
+
                   <div className="flex items-center space-x-4">
                     <i className="ri-mail-line text-blue-600 text-xl"></i>
                     <div>
@@ -349,7 +349,7 @@ export default function Appointment() {
                       <p className="text-gray-600">info@damrenurgunel.com</p>
                     </div>
                   </div>
-                  
+
                   <div className="flex items-center space-x-4">
                     <i className="ri-time-line text-blue-600 text-xl"></i>
                     <div>
@@ -367,7 +367,7 @@ export default function Appointment() {
             <div>
               <div className="bg-white rounded-2xl overflow-hidden shadow-sm">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.5234567890123!2d29.0234567!3d40.9876543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDU5JzE1LjYiTiAyOcKwMDEnMjQuNCJF!5e0!3m2!1str!2str!4v1234567890123!5m2!1str!2str"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.234567890123!2d36.3300000!3d41.2867000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x408877c4b2e3c6d7%3A0x4d3f8a9b5c6e7f8a!2zS8SxbMSxw6dkZWRlLCDDh3VidWtjdSBTay4sIDU1MjAwIMSwbGthZMSxbS9TYW1zdW4sIFTDvHJraXll!5e0!3m2!1str!2str!4v1704067200000!5m2!1str!2str"
                   width="100%"
                   height="400"
                   style={{ border: 0 }}
