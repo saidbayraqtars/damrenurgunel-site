@@ -2,12 +2,12 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Hakkımda | Klinik Psikolog Damrenur Günel",
-  description: "Klinik Psikolog Damrenur Günel'in eğitim geçmişi ve mesleki deneyimi. Gedik Üniversitesi mezunu, travma, depresyon ve anksiyete bozuklukları uzmanı.",
-  keywords: "Damrenur Günel, klinik psikolog eğitimi, Gedik Üniversitesi, travma terapisi, depresyon tedavisi, anksiyete bozuklukları",
+  title: "Hakkımda | Samsun Klinik Psikolog Damrenur Günel",
+  description: "Samsun Klinik Psikolog Damrenur Günel'in eğitim geçmişi ve mesleki deneyimi. Gedik Üniversitesi mezunu, travma, depresyon ve anksiyete bozuklukları uzmanı.",
+  keywords: "samsun psikolog damrenur günel, samsun klinik psikolog, travma terapisi samsun, depresyon tedavisi samsun",
   openGraph: {
-    title: "Hakkımda | Klinik Psikolog Damrenur Günel",
-    description: "Uzman psikolog Damrenur Günel'in eğitim geçmişi ve mesleki deneyimi.",
+    title: "Hakkımda | Samsun Klinik Psikolog Damrenur Günel",
+    description: "Samsun'da uzman psikolog Damrenur Günel'in eğitim geçmişi ve mesleki deneyimi.",
     type: "profile"
   }
 };

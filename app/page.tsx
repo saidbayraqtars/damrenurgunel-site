@@ -19,10 +19,10 @@ export default function Home() {
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-2xl">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-4 sm:mb-6">
-              Profesyonel Psikolojik Destek
+              Samsun Klinik Psikolog<br/><span className="text-3xl sm:text-4xl md:text-5xl mt-2 block text-red-700">Damrenur Günel</span>
             </h1>
-            <p className="text-lg sm:text-xl text-gray-700 mb-6 sm:mb-8">
-              Güvenli bir ortamda, uzman rehberliğinde kendinizi keşfedin ve yaşam kalitenizi artırın.
+            <p className="text-lg sm:text-xl text-gray-900 font-medium mb-6 sm:mb-8">
+              Samsun'da güvenli bir ortamda, uzman klinik psikolog rehberliğinde kendinizi keşfedin ve yaşam kalitenizi artırın.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
               <Link href="/randevu" className="bg-red-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold hover:bg-red-800 transition-colors text-center cursor-pointer whitespace-nowrap">
@@ -117,13 +117,12 @@ export default function Home() {
             </div>
             <div>
               <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
-                Damrenur Günel
+                Samsun Klinik Psikolog<br/>Damrenur Günel
               </h2>
               <p className="text-base sm:text-lg text-gray-600 mb-4 sm:mb-6">
-                2021 yılında Gedik Üniversitesi Psikoloji Lisans Programı'ndan mezun olduktan sonra,
-                aynı üniversitenin Klinik Psikoloji Yüksek Lisans Programı'na devam ettim ve 2023 yılında
-                onur derecesiyle mezun oldum. Travma sonrası stres bozukluğu, depresyon, anksiyete bozuklukları
-                üzerine uzmanlaştım.
+                Samsun konumunda mesleki çalışmalarına devam eden Klinik Psikolog Damrenur Günel, 2021 yılında Gedik Üniversitesi Psikoloji Lisans Programı'ndan mezun olduktan sonra,
+                aynı üniversitenin Klinik Psikoloji Yüksek Lisans Programı'nı onur derecesiyle tamamlamıştır. Özellikle Samsun bölgesinde yüz yüze ve tüm Türkiye'ye online olarak travma sonrası stres bozukluğu, depresyon ve anksiyete bozuklukları
+                üzerine danışmanlık vermektedir.
               </p>
               <div className="space-y-3 sm:space-y-4 mb-6 sm:mb-8">
                 <div className="flex items-center space-x-3">

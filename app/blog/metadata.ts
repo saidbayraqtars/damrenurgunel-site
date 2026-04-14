@@ -2,12 +2,12 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Blog | Klinik Psikolog Damrenur Günel - Psikoloji Makaleleri",
-  description: "Ruh sağlığı, psikoloji ve kişisel gelişim konularında güncel makaleler ve uzman tavsiyeleri. Kaygı, depresyon, stres yönetimi hakkında bilgiler.",
-  keywords: "psikoloji blog, ruh sağlığı makaleleri, kaygı yönetimi, depresyon, stres, kişisel gelişim, çocuk psikolojisi yazıları",
+  title: "Psikoloji Blogu | Samsun Klinik Psikolog Damrenur Günel",
+  description: "Samsun Psikolog Damrenur Günel'den ruh sağlığı, psikoloji ve kişisel gelişim konularında güncel makaleler. Kaygı, depresyon ve stres yönetimi yazıları.",
+  keywords: "samsun psikolog blog, psikoloji makaleleri oku, ruh sağlığı blog, samsun psikoterapi yazıları, klinik psikolog blogu",
   openGraph: {
-    title: "Psikoloji Blog | Klinik Psikolog Damrenur Günel",
-    description: "Ruh sağlığı ve kişisel gelişim konularında uzman makaleleri ve tavsiyeleri.",
+    title: "Psikoloji Blogu | Samsun Psikolog Damrenur Günel",
+    description: "Ruh sağlığı ve kişisel gelişim konularında uzman klinik psikolog makaleleri.",
     type: "website"
   }
 };

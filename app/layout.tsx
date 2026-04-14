@@ -18,21 +18,21 @@ const geistSans = Geist({
 
 
 export const metadata: Metadata = {
-  title: "Klinik Psikolog Damrenur Günel | Profesyonel Psikolojik Destek",
-  description: "Klinik Psikolog Damrenur Günel ile bireysel terapi, çift terapisi, çocuk psikolojisi ve online terapi hizmetleri. İstanbul Kadıköy'de uzman psikolojik destek.",
-  keywords: "klinik psikolog, psikoterapi, bireysel terapi, çift terapisi, çocuk psikolojisi, online terapi, kaygı tedavisi, depresyon, İstanbul psikolog",
+  title: "Samsun Psikolog & Klinik Psikolog | Damrenur Günel",
+  description: "Samsun Psikolog Damrenur Günel ile bireysel terapi, çift terapisi, çocuk ergen psikolojisi ve EMDR terapisi hizmetleri. Samsun İlkadım ve Atakum bölgesinde uzman klinik psikolog desteği.",
+  keywords: "samsun psikolog, samsun klinik psikolog, samsun terapi, samsun çift terapisi, samsun emdr, samsun en iyi psikolog, ilkadım psikolog, atakum psikolog, psikolog samsun",
   authors: [{ name: "Klinik Psikolog Damrenur Günel" }],
   openGraph: {
-    title: "Klinik Psikolog Damrenur Günel | Profesyonel Psikolojik Destek",
-    description: "Uzman psikolojik destek ve terapi hizmetleri. Bireysel, çift ve aile terapisi. İstanbul Kadıköy.",
+    title: "Samsun Psikolog & Klinik Psikolog | Damrenur Günel",
+    description: "Samsun'da uzman klinik psikolog desteği ve profesyonel terapi hizmetleri. Bireysel, çift ve aile terapisi.",
     type: "website",
     locale: "tr_TR",
     siteName: "Klinik Psikolog Damrenur Günel"
   },
   twitter: {
     card: "summary_large_image",
-    title: "Klinik Psikolog Damrenur Günel | Profesyonel Psikolojik Destek",
-    description: "Uzman psikolojik destek ve terapi hizmetleri. Bireysel, çift ve aile terapisi."
+    title: "Samsun Psikolog & Klinik Psikolog | Damrenur Günel",
+    description: "Samsun'da uzman klinik psikolog desteği ve profesyonel terapi hizmetleri. Bireysel, çift ve aile terapisi."
   },
   robots: {
     index: true,

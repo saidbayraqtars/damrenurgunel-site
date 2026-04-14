@@ -2,12 +2,12 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Aile & Çift Terapisi | Klinik Psikolog Damrenur Günel",
-  description: "Evlilik terapisi, çift danışmanlığı ve aile terapisi hizmetleri. İletişim problemleri, aldatma, boşanma süreci ve aile içi çatışmalar için uzman desteği.",
-  keywords: "çift terapisi, evlilik danışmanlığı, aile terapisi, iletişim problemleri, aldatma terapisi, boşanma danışmanlığı, aile içi çatışma, ebeveynlik",
+  title: "Aile & Çift Terapisi | Samsun Klinik Psikolog Damrenur Günel",
+  description: "Samsun evlilik terapisi, çift danışmanlığı ve aile terapisi hizmetleri. İletişim problemleri, aldatma, boşanma süreci için Samsun'da uzman psikolog desteği.",
+  keywords: "samsun çift terapisi, samsun evlilik danışmanı, samsun aile terapisi, atakum çift terapisi, ilkadım evlilik terapisti",
   openGraph: {
-    title: "Aile & Çift Terapi Hizmetleri | Damrenur Günel",
-    description: "Çiftler ve aileler için profesyonel terapi ve danışmanlık hizmetleri.",
+    title: "Aile & Çift Terapi Hizmetleri | Samsun Psikolog Damrenur Günel",
+    description: "Çiftler ve aileler için profesyonel terapi ve danışmanlık hizmetleri. Samsun uzman psikolog.",
     type: "website"
   }
 };
